@@ -1,3 +1,13 @@
-function validateEmail() {}
+function validateEmail(email) {
+  if (email.indexOf('@') === 0) {
+    return false
+  }
 
-module.exports = validateEmail;
+  if (email.includes('@') && email.includes('.')) {
+    return true
+  }
+
+  return false
+}
+
+module.exports = validateEmail
