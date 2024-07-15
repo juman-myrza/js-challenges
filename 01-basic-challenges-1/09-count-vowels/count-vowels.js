@@ -1,10 +1,10 @@
 function countVowels(str) {
-  const lowercasedStriing = str.toLowerCase()
+  const lowercasedString = str.toLowerCase()
 
   let count = 0
 
-  for (let i = 0; i < lowercasedStriing.length; i++) {
-    const char = lowercasedStriing[i]
+  for (let i = 0; i < lowercasedString.length; i++) {
+    const char = lowercasedString[i]
 
     if (char === 'a' || char === 'o' || char === 'u' || char === 'i' || char === 'e') {
       count++
